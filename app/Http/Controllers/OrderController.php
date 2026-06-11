@@ -39,7 +39,7 @@ class OrderController extends Controller
 
     public function edit(Order $order)
     {
-        return view('admin.edit_order', compact('order'));
+        return view('admin.orders_edit', compact('order'));
     }
 
     public function update(Request $request, Order $order)
