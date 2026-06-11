@@ -1,10 +1,4 @@
-# Tes Programmer: Web App Pemesanan Produk
+# Tes Programmer: Web App Pemesanan Produk (Laravel 12 & WordPress Landing Page)
 
-Proyek ini adalah implementasi dari Tes Programmer yang terdiri dari dua bagian utama: 
-1. **Backend:** REST API menggunakan Laravel 12 untuk mengelola pemesanan.
-2. **Frontend:** Landing page kustom di WordPress yang mengirim data pemesanan ke API Laravel menggunakan AJAX (Axios).
-
-## Teknologi yang Digunakan
-* **Backend:** PHP >= 8.2, Laravel 12, MySQL
-* **Frontend:** WordPress, Bootstrap 5 (UI), Axios (AJAX Request)
-* **Fitur Tambahan:** UUID untuk Primary Key `orders`, Custom HTML Template di WordPress.
+Proyek ini merupakan solusi lengkap untuk memenuhi persyaratan Tes Programmer. Sistem ini terdiri dari dua komponen utama yang terintegrasi secara dinamis tanpa reload halaman (asinkron):
+**Backend (Laravel 12):** Menyediakan REST API CRUD untuk manajemen order dan Dashboard Admin dengan antarmuka modern.
